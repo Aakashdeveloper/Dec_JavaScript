@@ -72,3 +72,28 @@ city.concat(num)
 (8) ["amsterdam", "boston", "Helsinki", "newyork", "delhi", 1, 2, 3]
 num.concat(city)
 (8) [1, 2, 3, "amsterdam", "boston", "Helsinki", "newyork", "delhi"]
+
+var a = "this is javascript"
+var a = "this is javascript"
+undefined
+a.split(' ')
+(3) ["this", "is", "javascript"]
+var url ="https://github.com/Aakashdeveloper"
+undefined
+a.split('/')
+["this is javascript"]
+url.split('/')
+(4) ["https:", "", "github.com", "Aakashdeveloper"]
+
+var url ="https://github.com/Aakashdeveloper"
+var output = url.split('/')
+output[output.length-1]
+
+var color=["red","yellow","green"]
+undefined
+color.toString()
+"red,yellow,green"
+var color=["red","yellow","green"]
+undefined
+color.sort()
+(3) ["green", "red", "yellow"]
