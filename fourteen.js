@@ -14,7 +14,7 @@ function loopme(userInput){
     }
 }
 
-//Generator
+//Generator(Es6)
 function * loopme(userInput){
     for(i=0;i<userInput;i++){
         yield i
