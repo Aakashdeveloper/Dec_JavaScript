@@ -1,0 +1,2 @@
+npm init
+npm install @babel/core @babel/preset-env @babel/register babel-polyfill
