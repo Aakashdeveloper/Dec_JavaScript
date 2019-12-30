@@ -1,10 +1,23 @@
 <html>
     <head>
+        <style>
+            #main{
+                height: 300px;
+                width:300px;
+                background:teal;
+            }
+        </style>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script>
             $(document).ready(()=>{
                 $('#color').click(()=>{
                     $('#one').css('color','red')
+                });
+                $('#hide').click(() => {
+                    $('#main').hide(2000)
+                });
+                $('#show').click(() => {
+                    $('#main').show(2000)
                 })
             })
         </script>
@@ -14,5 +27,7 @@
         <h1 id="one">This is from jquery</h1>
         <button id="color">Color</button>
         <button id="hide">Hide Me</button>
+        <button id="show">Show Me</button>
+        <div id="main"></div>
     </body>
 </html>
